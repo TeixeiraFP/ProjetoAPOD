@@ -17,12 +17,12 @@ $(`#btnsubmit`).click(function(){
             $(`#copy`).html(`${results.copyrigth}`)
 
             if(results.media_type === `image`){
-                $(`#imgDia`).html(`<img width = '480' heigth = '480'
+                $(`#imgDia`).html(`<img width = '380' heigth = '380'
                 
                 src = ${results.url}>`)
             }
             else if(results.media_type ===`video`){
-                $(`#imgDia`).html(`<iframe src = ${results.url}>`)
+                $(`#imgDia`).html(`<iframe width = '480' heigth = '580' src = ${results.url}>`)
             }
         }
     })
