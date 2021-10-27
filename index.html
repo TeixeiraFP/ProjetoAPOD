@@ -1,69 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <title>APOD</title>
-</head>
+  </head>
 
-<body class="containerPrincipal">
-
+  <body class="containerPrincipal">
     <header class="containerHeader">
-        <div class="tituloHeader">
-            <h1>Resilia</h1>
-        </div>
-        <div class="tituloHeader">
-            <h1>APOD</h1>
-        </div>
+      <div class="tituloHeader">
+        <h1>Resilia</h1>
+      </div>
+      <div class="tituloHeader">
+        <h1>APOD</h1>
+      </div>
     </header>
 
     <main class="container">
-        <section class="containerMain">
-            <div class="tituloSecundario">
-                <h2>Ao escolher uma data você terá a oportunidade de visitar esse dia a partir de uma imagem ou vídeo.</h2><br>
-            </div>
-            
-            <div>
-              <h3>Escolha uma data:</h3>
-              <input type="date" name="data" id="data" class="entrada">
-              <input type="submit" name="btnSubmit" id="btnsubmit" class="btn">  
-            </div>
+      <section class="containerMain">
+        <div class="tituloSecundario">
+          <h2>
+            Ao escolher uma data você terá a oportunidade de visitar esse dia a
+            partir de uma imagem ou vídeo.
+          </h2>
+          <br />
+        </div>
 
-            <section class="containerConteudo">
-                <div id="imgDia" class="img">
-               
-                <p id="copy" class="legenda">
-                </p>
-                </div>
-                <div class="info">
-                    <h2 id="tituloFoto" class="titulo"></h2>
-                    
-                    
-                        
-                    
+        <div>
+          <h3>Escolha uma data:</h3>
+          <input type="date" name="data" id="data" class="entrada" />
+          <input type="submit" name="btnSubmit" id="btnsubmit" class="btn" />
+        </div>
 
-                    <p id="descricao" class="description">
-                    </p>
-                </div>
-            </section>
+        <section class="containerConteudo">
+          <div id="imgDia" class="img">
+            <p id="copy" class="legenda"></p>
+          </div>
+          <div class="info">
+            <h2 id="tituloFoto" class="titulo"></h2>
 
-
-           
+            <p id="descricao" class="description"></p>
+          </div>
         </section>
+      </section>
     </main>
 
     <footer>
-        <p class="footer">
-            Copyright © 2021 - Filipe Pinheiro Teixeira
-        </p>
+      <p class="footer">Copyright © 2021 - Filipe Pinheiro Teixeira</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script.js"></script>
-</body>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
